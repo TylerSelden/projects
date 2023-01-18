@@ -1,0 +1,171 @@
+html {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+} body {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-color: #303030;
+} #header {
+  color: white;
+  font-size: calc(3vw + 3vw);
+} .menu {
+  border-bottom: 2px solid #000000;
+  background-color: #303030;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  align-content: center;
+} .menu a {
+  height: 100%;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+} .menu .img {
+  height: auto;
+  float: left;
+} .menu a:hover {
+  background-color: #ddd;
+  color: black;
+} .menu a.active {
+  background-color: #4CAF50;
+  color: white;
+} img {
+  width: 25%;
+  height: 25%;
+} .a {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("1.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .b {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("2.avif");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .c {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("3.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .d {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("4.jpeg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .e {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("5.jpeg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .f {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("6.jpeg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} .g {
+  background-color: #121318;
+  min-height: calc(100vh - 0px);
+  max-height: calc(100vh - 0px);
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-image: url("7.webp");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: none;
+  background-position: center center;
+} h2 {
+  background-color: #FFFFFF;
+  border: 3px #000000;
+  border-radius: 5px;
+  max-width: 45%;
+  float: right;
+  margin-right: 10%;
+  margin-left: 50%;
+  padding: 10px;
+} h3 {
+  background-color: #FFFFFF;
+  border: 3px #000000;
+  border-radius: 5px;
+  max-width: 45%;
+  float: left;
+  margin-right: 50%;
+  margin-left: 10%;
+  padding: 1%;
+}

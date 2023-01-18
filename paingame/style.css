@@ -1,0 +1,35 @@
+div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-size: cover;
+  background-image: url("fire.jpg");
+  align-items: center;
+  justify-content: center;
+} html, head, body {
+  overflow: hidden;
+} h1 {
+  transition: 2s;
+  color: #FFFFFF;
+  font-size: calc(3vw + 3vw);
+} button {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 48px;
+  margin: 4px 2px;
+  border-radius: 50%;
+} button:hover {
+  background-color: #DDDDDD;
+} button:active {
+  background-color: #AAAAAA;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A game I guess</title>
+</head>
+
+<body>
+  <center>
+    <canvas id="canvas" width="720" height="480"></canvas><br>
+    <button onclick="Game.debug.show_hitboxes = !Game.debug.show_hitboxes">Toggle Visual Hit- and Solidboxes</button>
+    <p id="x"></p>
+    <p id="y"></p>
+    <p id="xs"></p>
+    <p id="ys"></p>
+  </center>
+  <div style="display: none;" id="assets">
+    <!-- Loaded assets will go here -->
+  </div>
+  <script src="engine.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <link rel="stylesheet" href="style.css?v=1.5">
+    <title>Stonks</title>
+  </head>
+  <body>
+    <center>
+      <h1>Stonks</h1>
+      <h4>By Benti Studios</h4>
+      <input id="input" type="text" placeholder="Username"><br>
+      <input id="password" type="password" placeholder="Password"><br>
+      <button onclick="send()">Submit</button>
+      <p id="n"></p>
+      <p id="pm"></p>
+      <p id="net"></p>
+      <table id="com">
+        <tr>
+          <th>Companies</th>
+          <th>Your shares</th>
+          <th>Shares available</th>
+          <th>Price</th>
+        </tr>
+      </table>
+      <br>
+      <h2>Leaderboard</h2>
+      <table id="leaderboard">
+        <tr>
+          <th>Place</th>
+          <th>Username</th>
+          <th>Net worth</th>
+        </tr>
+      </table>
+      <h1>New features</h1>
+      <ul>
+        <li>Updated leaderboard: The leaderboard now has small dots next to the usernames. If the dot is green, that user is playing right now. If it's grey, they aren't online.</li>
+        <li>Leaderboard: You can now see all players' usernames and net worths in order from greatest to least.</li>
+        <li>Server-side backups: The server will now store your data, so everything won't reset when the server restarts.</li>
+        <li>Net worth: The game will now show you your net worth, including your balance and all the shares you've bought.</li>
+      </ul>
+      <h2>How to play:</h2>
+      <p>The Stock Market game works through commands. Different commands do different things. For example, "Buy 10 Goople" will buy you 10 of Goople's shares, while "Sell 5 Bookface" would sell 5 of your Bookface shares. These are the commands and how you use them:</p>
+      <p>Buy [amount] [company]</p>
+      <p>Sell [amount] [company]</p>
+      <p>Send [amount] [username]</p>
+      <h2>How the game works:</h2>
+      <p>The goal of the game is to get as rich as possible, and then dominate the market by buying up all the shares. You gain money when you buy a share with a low price, wait a bit, and sell it when its price is higher. Sometimes this can take awhile, and sometimes the company's stock can crash, making their shares not very valuable.</p>
+      <p>Every few minutes, the prices for each company are changed by a random amount. This amount is generally small, but over time, share prices can change drastically. The key to success is patience. Buy and sell what you need, then wait a little while and come back later to see how the game is going for you.</p>
+      <p>Good luck!</p>
+      <h2>Recent Maintenance</h2>
+      <p>Server maintenance occured on Tuesday, May 10, from 7:41 to 7:54 PM. This was to prevent new account creation without prior authorization from the Server Administrator.</p>
+      <!-- canvas here later -->
+    </center>
+    <script src="script.js?v=1.5"></script>
+  </body>
+</html>
